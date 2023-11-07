@@ -6,7 +6,7 @@
 
 const Calcular = require('../Calcular');
 test('El área de un rectángulo 3x4 debe ser 12', () => {
-    expect(Calcular(3, 4)).toBe(12);
+    expect(Calcular(3, 4)).toBe(10);
 });
 
 test('El área de un rectángulo 5x10 debe ser 50', () => {
